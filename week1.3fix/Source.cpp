@@ -11,6 +11,9 @@ int more_less();
 int main() {
 	printf("Put your digits :");
 	scanf("%d", &a);
+	if (a <= 0) {
+		a = a * -1;
+	}
 	b = a;
 	while (y == 1) {
 		aa[i] = a % 10;
